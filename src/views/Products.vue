@@ -6,12 +6,12 @@
 </template>
 
 <script>
-import Breadc from '@/Components/ProductsPage/Breadc.vue'
+import AboutUs from '@/Components/HomePage/AboutUs.vue'
 import Grid from '@/Components/ProductsPage/Grid.vue'
 
 export default {
   components: {
-    Breadc, Grid
+    AboutUs, Grid
   }
 }
 </script>
