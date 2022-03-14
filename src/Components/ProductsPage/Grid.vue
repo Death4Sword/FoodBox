@@ -1,4 +1,5 @@
 <template>
+
   <div class="container grid">
     <div class="row justify-content-around">
       <div class="row col-6 pb-4 pr-1">

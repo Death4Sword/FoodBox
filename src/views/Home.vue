@@ -1,17 +1,17 @@
 <template>
   <div>
-    <AboutUs />
+    <HomePage />
     <!-- <Grid /> -->
   </div>
 </template>
 
 <script>
-import AboutUs from '@/Components/HomePage/AboutUs.vue'
+import HomePage from '@/Components/HomePage/HomePage.vue'
 // import Grid from '@/Components/ProductsPage/Grid.vue'
 
 export default {
   components: {
-    AboutUs
+    HomePage
     // AboutUs, Grid
   }
 }

@@ -1,5 +1,5 @@
 <template>
-  <section class="about-us">
+  <section class="about">
     <div class="row p-4">
       <div class="col-6">
         <!-- <img class="float-lg-right" src="@/assets/new.jpg"> -->
@@ -33,7 +33,7 @@
 
 <script>
 export default {
-  name: 'AboutUs'
+  name: 'About'
 }
 </script>
 

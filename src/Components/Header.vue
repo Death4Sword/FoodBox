@@ -11,6 +11,8 @@
         />
         <div class="dropdown-menu hb" aria-labelledby="navd">
           <router-link class="dropdown-item" to="/">Accueil</router-link>
+          <router-link class="dropdown-item" to="/products">Commander</router-link>
+          <router-link class="dropdown-item" to="/about">A propos</router-link>
           <router-link class="dropdown-item" to="/contact">Contactez-nous !</router-link
           >
         </div>
@@ -21,9 +23,9 @@
       </a>
       <!--Header navigation-->
       <span class="navbar-item bc d-none d-xl-block d-lg-block py-0">
-        <router-link class="pl-5" to="/">Commander</router-link>
+        <router-link class="pl-5" to="/products">Commander</router-link>
 
-        <router-link class="pl-5" to="/">A propos</router-link>
+        <router-link class="pl-5" to="/about">A propos</router-link>
 
         <router-link class="pl-5" to="/contact">Contactez-nous !</router-link>
       </span>
@@ -144,7 +146,7 @@
               <span v-if="errorVisible">{{ errorText }}</span>
               <button class="btn-xl btn-success mt-3" v-on:click="Submit()">
                 <span v-if="SignMode">Connexion</span
-                ><span v-if="!SignMode">Inscrivez-vous</span>
+                ><span v-if="!SignMode">Inscrivez-vous</span> <!--Redirect vers page inscription de site -->
               </button>
             </form>
           </div>
@@ -224,7 +226,7 @@ nav {
 }
 .navbar {
   border-bottom: 1px solid #dcdcdc;
-  background-color: #2649a1;
+  background-color: #CBCBCB;
 }
 
 .close {
@@ -237,7 +239,7 @@ nav {
 .navbar-item.bc a {
   font-size: 17px;
   text-decoration: none;
-  color: white;
+  color: #000;
 }
 
 .navbar-item.bc a:hover,
@@ -267,7 +269,7 @@ nav {
   border-radius: 6px;
   width: 160px;
   border: solid 1px #ccc;
-  background-color: #fff;
+  background-color: #606060;
   border-color: #98ccfd;
   -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
   -moz-box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
