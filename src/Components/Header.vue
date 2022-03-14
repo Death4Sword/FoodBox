@@ -3,7 +3,7 @@
     <nav class="navbar navbar-light">
       <div class="dropdown d-xl-none d-lg-none mr-auto">
         <img
-          src="https://png.icons8.com/windows/32/000000/menu.png"
+          src="@/assets/logo-BDS.png"
           data-toggle="dropdown"
           data-target="#navd"
           aria-haspopup="true"

@@ -30,6 +30,7 @@ body {
 
 .cavamarcher{
   display: block;
+  size: 50%;
   margin-top: 3%;
   margin-left: auto;
   margin-right: auto;
@@ -46,11 +47,9 @@ body {
   margin : 5%;
   font-family: 'Raleway';
 }
-
 .col-md-4 {
   display: flex;
 }
-
 .about-us img {
   width: 90%;
   min-width: 380px;

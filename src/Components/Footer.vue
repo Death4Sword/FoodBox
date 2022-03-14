@@ -27,7 +27,7 @@
 
         <div class="col-3 col-xl-2 col-lg-3 col-md-3 col-sm-3">
           <div class="footer-widget">
-            <div class="footer-title">Catagories</div>
+            <div class="footer-title">Catégories</div>
             <ul class="list-unstyled">
               <router-link to="/products"><li>T-Shirt</li></router-link>
               <router-link to="/products"><li>Sweat</li></router-link>
