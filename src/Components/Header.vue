@@ -19,7 +19,7 @@
       </div>
       <!--Logo-->
       <a class="navbar-brand py-0 pl-5">
-        <router-link to="/"><img src="@/assets/logo-BDS.png" width="50" height="50" /></router-link>
+        <router-link to="/"><img src="@/assets/Logo-foodbox.png" width="35" height="50"/></router-link>
       </a>
       <!--Header navigation-->
       <span class="navbar-item bc d-none d-xl-block d-lg-block py-0">
