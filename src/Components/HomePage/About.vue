@@ -1,6 +1,5 @@
 <template>
   <section class="about">
-
     <div class="bds-image">
       <h1>A propos</h1>
       <img class="logobds" src="@/assets/logo-BDS.png" />
@@ -10,7 +9,8 @@
         <!-- <img class="float-lg-right" src="@/assets/new.jpg"> -->
       </div>
       <div class="col-12 col-sm-6">
-        <h6>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
+        <h6>
+          What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
           and typesetting industry. Lorem Ipsum has been the industry's standard
           dummy text ever since the 1500s, when an unknown printer took a galley
           of type and scrambled it to make a type specimen book. It has survived
@@ -26,12 +26,22 @@
           look like readable English. Many desktop publishing packages and web
           page editors now use Lorem Ipsum as their default model text, and a
           search for 'lorem ipsum' will uncover many web sites still in their
-          </h6>
+        </h6>
       </div>
     </div>
     <div class="row p-4">
-      <div class="col-12 col-sm-6 text-sm-right text-md-right ml-sm-0 ml-md-5 ml-lg-5 ml-xl-5 text-lg-right order-sm-first order-12" style="margin-right: -8%; z-index:1;">
-        <h6>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
+      <div
+        class="
+          col-12 col-sm-6
+          text-sm-right text-md-right
+          ml-sm-0 ml-md-5 ml-lg-5 ml-xl-5
+          text-lg-right
+          order-sm-first order-12
+        "
+        style="margin-right: -8%; z-index: 1"
+      >
+        <h6>
+          What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
           and typesetting industry. Lorem Ipsum has been the industry's standard
           dummy text ever since the 1500s, when an unknown printer took a galley
           of type and scrambled it to make a type specimen book. It has survived
@@ -47,10 +57,10 @@
           look like readable English. Many desktop publishing packages and web
           page editors now use Lorem Ipsum as their default model text, and a
           search for 'lorem ipsum' will uncover many web sites still in their
-          </h6>
+        </h6>
       </div>
       <div class="lastimg">
-        <img class="lastimg" src="@/assets/commander.png">
+        <img class="lastimg" src="@/assets/commander.png" />
       </div>
     </div>
   </section>
@@ -58,8 +68,8 @@
 
 <script>
 export default {
-  name: 'About'
-}
+  name: "About",
+};
 </script>
 
 <style scoped>
@@ -97,5 +107,4 @@ export default {
   height: 65%;
   margin: 15%;
 }
-
 </style>

@@ -68,16 +68,16 @@
             generated Lorem Ipsum is therefore always free from repetition,
             injected humour, or non-characteristic words etc.
           </p>
-          <a href="/products" class="myButton">JE COMMANDE</a>        
+          <a href="/products" class="myButton">JE COMMANDE</a>
         </div>
         <div class="right-commander">
-          <img src="@/assets/commander.png">
+          <img src="@/assets/commander.png" />
         </div>
       </div>
       <div>
         <div class="about_text">
           <h2>A Propos</h2>
-          <br>
+          <br />
           <h3>
             Les allergènes et les différents menus que nous vous proposons :
           </h3>
@@ -141,12 +141,12 @@
         <img class="circle" src="@/assets/circle.png" />
       </div>
       <div class="wiwitheboss2">
-          <div class="p-2">Gluten</div>
-          <div class="p-2">Poisson</div>
-          <div class="p-2">Crustacés</div>
-          <div class="p-2">Oeufs</div>
-          <div class="p-2">Fruits à coque</div>
-          <div class="p-2">Moutarde</div>
+        <div class="p-2">Gluten</div>
+        <div class="p-2">Poisson</div>
+        <div class="p-2">Crustacés</div>
+        <div class="p-2">Oeufs</div>
+        <div class="p-2">Fruits à coque</div>
+        <div class="p-2">Moutarde</div>
       </div>
       <div class="block-circle3">
         <img class="circle" src="@/assets/circle.png" />
@@ -156,11 +156,11 @@
         <img class="circle" src="@/assets/circle.png" />
       </div>
       <div class="wiwitheboss3">
-          <div class="p-2">Mollusque</div>
-          <div class="p-2">Soja</div>
-          <div class="p-2">Sulfate</div>
-          <div class="p-2">Sésame</div>
-          <div class="p-2">Lait</div>
+        <div class="p-2">Mollusque</div>
+        <div class="p-2">Soja</div>
+        <div class="p-2">Sulfate</div>
+        <div class="p-2">Sésame</div>
+        <div class="p-2">Lait</div>
       </div>
       <div class="about_text">
         <p>
@@ -188,9 +188,9 @@
         <img class="circle" src="@/assets/circle.png" />
       </div>
       <div class="wiwitheboss4">
-          <div class="p-2">Soja</div>
-          <div class="p-2">Sulfate</div>
-          <div class="p-2">Sésame</div>
+        <div class="p-2">Soja</div>
+        <div class="p-2">Sulfate</div>
+        <div class="p-2">Sésame</div>
       </div>
       <div class="BDS">
         <div class="left-BDS">
@@ -346,24 +346,24 @@ body {
 }
 
 .myButton {
-	background-color:#575157;
+  background-color: #575157;
   margin-left: 35%;
-	border-radius:15px;
-	border:1px solid #d6bcd6;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
-	padding:7px 76px;
-	text-decoration:none;
+  border-radius: 15px;
+  border: 1px solid #d6bcd6;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 7px 76px;
+  text-decoration: none;
 }
 .myButton:hover {
-	background-color:#bab1ba;
+  background-color: #bab1ba;
 }
 .myButton:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
 
 .right-commander {

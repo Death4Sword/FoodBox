@@ -49,6 +49,7 @@
             <strong>Réseaux sociaux</strong>
             <img class="facebook" src="@/assets/facebook.png" />
             <img class="instagram" src="@/assets/insta.png" />
+            <img class="discord" src="@/assets/discord.png" />
           </div>
         </div>
       </div>
